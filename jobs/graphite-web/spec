@@ -44,6 +44,9 @@ properties:
   graphite-web.httpd.server_name:
     description: The name the server uses to identify itself.
     default: www.my-graphite.com
+  graphite-web.httpd.listen_addr:
+    description: The httpd listen address. Use 127.0.0.1 to lock down the interface to the local host.
+    default: *
   graphite-web.httpd.port:
     description: The httpd listen port.
     default: 80
