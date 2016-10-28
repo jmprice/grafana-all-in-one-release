@@ -12,6 +12,7 @@ templates:
 
 packages:
 - grafana
+- piechart-panel
 
 properties:
   grafana.listen_port:

@@ -1,0 +1,8 @@
+# abort script on any command that exits with a non zero value
+set -e
+
+
+
+tar -zxf piechart-panel/piechart-panel.tgz
+
+cp -r piechart-panel/* ${BOSH_INSTALL_TARGET}

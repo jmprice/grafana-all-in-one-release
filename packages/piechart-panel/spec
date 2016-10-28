@@ -1,0 +1,8 @@
+---
+name: piechart-panel
+
+dependencies:
+
+
+files:
+  - piechart-panel/piechart-panel.tgz # https://github.com/grafana/piechart-panel MG We created tgzfrom commit/470df6546cfe3125ee4da9fa90dc447537428edf

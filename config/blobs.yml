@@ -119,3 +119,7 @@ zope.interface/zope.interface-4.1.2.tar.gz:
   object_id: 00efed8e-a706-42c7-bf9c-5e102e4c7516
   sha: 6d940ecd621df0437ee9deb17d03ba105c13f07f
   size: 919277
+piechart-panel/piechart-panel.tgz:
+  object_id: ff233f92-2c09-4511-a386-6d9d79e54c75
+  sha: fc01eb85b9e6760416b01cc9aeedf0acf6edfb8b
+  size: 1237324

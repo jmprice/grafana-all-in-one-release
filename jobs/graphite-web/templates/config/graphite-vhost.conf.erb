@@ -1,4 +1,4 @@
-<VirtualHost <%= p('graphite-web.httpd.listen_addr') %>>:<%= p('graphite-web.httpd.port') %>>
+<VirtualHost <%= p('graphite-web.httpd.listen_addr') %>:<%= p('graphite-web.httpd.port') %>>
         ServerName <%= p('graphite-web.httpd.server_name') %>
         ServerAdmin <%= p('graphite-web.httpd.server_admin') %>
         DocumentRoot "/var/vcap/packages/graphite-web/lib"
