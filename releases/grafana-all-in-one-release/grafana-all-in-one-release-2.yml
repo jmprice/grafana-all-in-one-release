@@ -1,0 +1,207 @@
+---
+packages:
+- name: cairo
+  version: b2648e932d77fc0648402a4bde7d924ccc8507be
+  fingerprint: b2648e932d77fc0648402a4bde7d924ccc8507be
+  sha1: deda1e4f49212560ba1f021199fa033602d2a68b
+  dependencies:
+  - expat
+  - fontconfig
+  - freetype
+  - libpng
+  - pixman
+- name: carbon
+  version: 946913e2752008cd5a4b6db5829c741b0327f79e
+  fingerprint: 946913e2752008cd5a4b6db5829c741b0327f79e
+  sha1: 603e381c31fd6b13205f04d4c510ed06305efe48
+  dependencies:
+  - python
+- name: django
+  version: af2bf25ab77393229e8e26245ff03a0bf246fa85
+  fingerprint: af2bf25ab77393229e8e26245ff03a0bf246fa85
+  sha1: a4be6dbcf1b933f838cc04a725dea19e38a9d6d8
+  dependencies:
+  - python
+- name: django-tagging
+  version: 9f0b3b0ea901bb6dcd98e8c7496edfae9620c1df
+  fingerprint: 9f0b3b0ea901bb6dcd98e8c7496edfae9620c1df
+  sha1: c1bdb57f7cd84e984c9fbe1fdb65519564923f45
+  dependencies:
+  - python
+- name: expat
+  version: 4eb3dc3d2ddc2507b8be137557a05b6bb340e009
+  fingerprint: 4eb3dc3d2ddc2507b8be137557a05b6bb340e009
+  sha1: d744276e0503854d8161000e37ddd699c6c9cb97
+  dependencies: []
+- name: fontconfig
+  version: f113dc8bd34a3a1f5695ebe5a8615e183db404d3
+  fingerprint: f113dc8bd34a3a1f5695ebe5a8615e183db404d3
+  sha1: 9cdea023187ceb5989d15a07602bcfd8446ac7ce
+  dependencies:
+  - expat
+  - freetype
+- name: freetype
+  version: da29c814c455a06dc17820440c6e2167e98dbd92
+  fingerprint: da29c814c455a06dc17820440c6e2167e98dbd92
+  sha1: 61433611bb94022680d20d432b2c1d21c143ca6a
+  dependencies: []
+- name: grafana
+  version: f52562b28e53063445d6e968835bcbf2f94a0cdb
+  fingerprint: f52562b28e53063445d6e968835bcbf2f94a0cdb
+  sha1: 5c57375d115e0bae911dc2efd183c7109bc60903
+  dependencies:
+  - graphite-web
+  - piechart-panel
+  - postgresql
+- name: graphite-web
+  version: 898ce9de45b29f0c887e746452c9eb6284dcdaf3
+  fingerprint: 898ce9de45b29f0c887e746452c9eb6284dcdaf3
+  sha1: a6883e30f4e4fc70948f8a895e5521e0273f79fb
+  dependencies:
+  - postgresql
+  - python
+- name: httpd
+  version: 95eeb9cd85cad5beae41108569359fef641b6d03
+  fingerprint: 95eeb9cd85cad5beae41108569359fef641b6d03
+  sha1: aeabdb4f2eb8b503bd2a0037105b39a355ad1c7a
+  dependencies:
+  - pcre
+- name: libpng
+  version: 488c697fc6c953e72d524110281987b4c7c66414
+  fingerprint: 488c697fc6c953e72d524110281987b4c7c66414
+  sha1: e20c59e38ac36f66445589c4b4f7b4b54f7f806e
+  dependencies: []
+- name: mocker
+  version: 2a918ab9d12f5d2141c7747df6fa16ad9d77a3d5
+  fingerprint: 2a918ab9d12f5d2141c7747df6fa16ad9d77a3d5
+  sha1: c9929d34860f8b4ef8acd14861c8f47878f51f07
+  dependencies:
+  - python
+- name: mod_wsgi
+  version: 61fe8974054c8826c14d25f726c94ed4add4be19
+  fingerprint: 61fe8974054c8826c14d25f726c94ed4add4be19
+  sha1: 1b4b7e72aa90c5778f0b8189e6ce6a18ef2bf27d
+  dependencies:
+  - httpd
+  - python
+- name: node
+  version: 8c00dcfecb14d9dc71ec415a690fde93281eea87
+  fingerprint: 8c00dcfecb14d9dc71ec415a690fde93281eea87
+  sha1: a507fd5eab5e44cc900de54bf708ab464a9d09a7
+  dependencies:
+  - python
+- name: pcre
+  version: ceede343766bf4eeae392c32f61bfa59b77fc558
+  fingerprint: ceede343766bf4eeae392c32f61bfa59b77fc558
+  sha1: 3b18d89b2eb20978a0133ffa939525305b2eb5b4
+  dependencies: []
+- name: piechart-panel
+  version: e1779d6dc0f8c2fab13e04fd3e2f08bd10bb9065
+  fingerprint: e1779d6dc0f8c2fab13e04fd3e2f08bd10bb9065
+  sha1: ed2cd904a315be5ce34c5c4eedd3fc9853530004
+  dependencies: []
+- name: pixman
+  version: 6963648637d3c8a339f54e802c691ca273f3121f
+  fingerprint: 6963648637d3c8a339f54e802c691ca273f3121f
+  sha1: e7fa9e8c32716b9819b8691e5c7c4c3b05ec600d
+  dependencies: []
+- name: postgresql
+  version: bf1c22dd3170a07b11d4836ce031856f522ee275
+  fingerprint: bf1c22dd3170a07b11d4836ce031856f522ee275
+  sha1: ab7b96aeba70e735ff3bb63c63e466dd3d4d0822
+  dependencies: []
+- name: psycopg2
+  version: 6cc7623dd7380d7f83202620109d32d80ebc03b2
+  fingerprint: 6cc7623dd7380d7f83202620109d32d80ebc03b2
+  sha1: d92349b6f60356bf15b4fc20e4313597f9c7b50d
+  dependencies:
+  - postgresql
+  - python
+- name: py2cairo
+  version: 2b57fe1c64d7d3193ba46daf5c40571acf3161a5
+  fingerprint: 2b57fe1c64d7d3193ba46daf5c40571acf3161a5
+  sha1: 5caabbe10f699b6ba1efe2ed77f3bf14e3fa0373
+  dependencies:
+  - cairo
+  - expat
+  - fontconfig
+  - freetype
+  - libpng
+  - pixman
+  - python
+- name: pysqlite
+  version: 2bae3910d3f5badf5933298b35d7af5f3ad5fee9
+  fingerprint: 2bae3910d3f5badf5933298b35d7af5f3ad5fee9
+  sha1: a49c8178f3284124cd1e8056ec067c1ec5b74644
+  dependencies:
+  - python
+  - sqlite
+- name: python
+  version: 48d6fce8fb3697c70a9885f8d4bbf194fe4ac1fd
+  fingerprint: 48d6fce8fb3697c70a9885f8d4bbf194fe4ac1fd
+  sha1: 256cd62d4c5d204d8fc8d02104d469c5024bd13d
+  dependencies: []
+- name: pytz
+  version: f7c6ae16d946bfc9181605f77826e1eb10d3b279
+  fingerprint: f7c6ae16d946bfc9181605f77826e1eb10d3b279
+  sha1: f43d20ed7eaeea8dcbd74ad87d87de489eba909f
+  dependencies:
+  - python
+- name: sqlite
+  version: f5b6c9f3e54f9c2b7aa634e2aad1e1167d3685cb
+  fingerprint: f5b6c9f3e54f9c2b7aa634e2aad1e1167d3685cb
+  sha1: 1af9088274d69bf303e5b2ee34b3251e27fd0235
+  dependencies: []
+- name: statsd
+  version: 77a733ce6e041f8b5029d93a25f5e993b82d52aa
+  fingerprint: 77a733ce6e041f8b5029d93a25f5e993b82d52aa
+  sha1: 741740b8c5b00fb0a69eeb373206fffccaffc5af
+  dependencies:
+  - node
+- name: twisted
+  version: 739ca3daa35e9b40f2c47cbdaba4552094531e36
+  fingerprint: 739ca3daa35e9b40f2c47cbdaba4552094531e36
+  sha1: 7534f396c7b7dbf05cb94d27e500a4e1fcfd8f3a
+  dependencies:
+  - python
+- name: whisper
+  version: 35a318f27dbdb2359fba9261dba0e675b155a96d
+  fingerprint: 35a318f27dbdb2359fba9261dba0e675b155a96d
+  sha1: c2158bd6fd874a9683fb91aa9277e96f6d72acc3
+  dependencies:
+  - python
+- name: zope.interface
+  version: e12cd16ca2f85a89234ed1134d1c2f61e75564c2
+  fingerprint: e12cd16ca2f85a89234ed1134d1c2f61e75564c2
+  sha1: 5755160beb91898ac9c54a85c558fdf873b1a0f1
+  dependencies:
+  - python
+jobs:
+- name: carbon
+  version: 56ef3feed053f5a0410c2c162d11919229f56259
+  fingerprint: 56ef3feed053f5a0410c2c162d11919229f56259
+  sha1: a67a1d6573abaf28107e545864e8e616d8359b4e
+- name: grafana
+  version: 5ccbc9489116720b3b7e90ccc2f0b3b32e1b0ebc
+  fingerprint: 5ccbc9489116720b3b7e90ccc2f0b3b32e1b0ebc
+  sha1: b955bffa742a6d036482f1fd930089696c794955
+- name: graphite-web
+  version: f68f09a0717e6665ed6f2323eb6039a1e9c1d65a
+  fingerprint: f68f09a0717e6665ed6f2323eb6039a1e9c1d65a
+  sha1: 280fa176c5c965daa690d87daef8b40e8e5c70a0
+- name: postgresql
+  version: 69088a328f4f615f602c8f76436a478163a8d125
+  fingerprint: 69088a328f4f615f602c8f76436a478163a8d125
+  sha1: d72415be5bbbe7861b72175e2f6d83c237fce718
+- name: statsd
+  version: 6be75aa67b4ef4f9a943170bf83387964b9bf04a
+  fingerprint: 6be75aa67b4ef4f9a943170bf83387964b9bf04a
+  sha1: b21b79c069f0420750a32493038d27050e7350f1
+license:
+  version: 55d264eb2bd253df107896e6149fe3345a19202b
+  fingerprint: 55d264eb2bd253df107896e6149fe3345a19202b
+  sha1: 188d98ad880f903d1180e217a52ce9033878cdcf
+commit_hash: eaa3e644
+uncommitted_changes: false
+name: grafana-all-in-one-release
+version: '2'
