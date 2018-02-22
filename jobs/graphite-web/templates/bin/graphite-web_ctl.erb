@@ -33,6 +33,10 @@ case $1 in
     chown vcap:vcap /var/vcap/store/graphite/storage/rrd
     chown vcap:vcap /var/vcap/store/graphite/storage/whisper
 
+    # Fix for bosh-agent update "Don't set any world privileges when setting permissions for rendered …"
+    # https://github.com/cloudfoundry/bosh-agent/commit/bd4e5e7a349d73abbfe75d043111cbb5e415d954
+    chmod +r /var/vcap/jobs/graphite-web/conf/*
+
     # Copy templated files to the correct locations
     cp /var/vcap/jobs/graphite-web/conf/dashboard.conf /var/vcap/packages/graphite-web/conf/
     cp /var/vcap/jobs/graphite-web/conf/graphTemplates.conf /var/vcap/packages/graphite-web/conf/
