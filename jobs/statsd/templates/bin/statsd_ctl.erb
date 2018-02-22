@@ -10,6 +10,10 @@ case $1 in
     mkdir -p /var/vcap/sys/log/statsd
     mkdir -p /var/vcap/sys/run/statsd
 
+    # Fix for bosh-agent update "Don't set any world privileges when setting permissions for rendered …"
+    # https://github.com/cloudfoundry/bosh-agent/commit/bd4e5e7a349d73abbfe75d043111cbb5e415d954
+    chmod +r /var/vcap/jobs/statsd/conf/localConfig.js
+
     # Copy templated files to the correct locations
     cp /var/vcap/jobs/statsd/conf/localConfig.js /var/vcap/packages/statsd/localConfig.js
 
